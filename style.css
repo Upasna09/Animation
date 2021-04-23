@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.title {
+  text-shadow: -3px 3px #138808;
+  color: #00416a;
+  display: flex;
+  justify-content: center;
+  font-family: "Bungee Shade", cursive;
+  font-size: 50px;
+  padding: 0;
+  transform: translateY(-50px);
+  position: relative;
+  transition: 1s ease-in-out;
+}
+
+.title:hover {
+  transform: translateY(200px);
+  z-index: 10;
+}
+
+button {
+  background-color: #00416a;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: -5px 5px 15px gray;
+}
+
+button:hover {
+  background-color: #367c2b;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-80px);
+}
+
+#my-canvas {
+  background: url(/images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline;
+  transform: translateY(-90px);
+  position: relative;
+}
+
+#canvas-container {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
